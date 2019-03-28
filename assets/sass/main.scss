@@ -169,7 +169,7 @@
 		margin: 0 0 _size(element-margin) 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	.h1, h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
 		font-weight: _font(weight-extrabold);
 		letter-spacing: _size(letter-spacing-alt);
@@ -1459,7 +1459,7 @@
 		width: 100%;
 		z-index: _misc(z-index-base);
 
-		h1 {
+		.h1, h1 {
 			@include vendor('transition', 'opacity #{_duration(transitions)} ease');
 			height: inherit;
 			left: 1.25em;
@@ -1544,7 +1544,7 @@
 		&.alt {
 			background: transparent;
 
-			h1 {
+			.h1, h1 {
 				@include vendor('pointer-events', 'none');
 				opacity: 0;
 			}
