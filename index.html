@@ -13,7 +13,7 @@
     <title>Flaashes | Tes photos vues autrement que sur ton écran !</title>
     <meta name="description" content="Entre Box axées sur la photographie et le lifestyle, posters et livrets d'artistes, Flaashes te propose de développer ta créativité autour de la photographie !" />
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Lato" rel="stylesheet">
     <link rel="stylesheet" href="/wp-content/themes/flaashes/assets/css/main.css" />
@@ -161,7 +161,7 @@
         accessToken: '6141535529.1677ed0.96b6b026ab2941f5b09b7a9f939e7847',
         limit: 9,
         resolution: 'low_resolution',
-        template: '<a class="col-4" style="border-bottom: none;" href="{{link}}"><img class="img-fluid" src="{{image}}"/></a>'
+        template: '<a class="col-4" style="border-bottom: none;" href="{{link}}"><img class="img-fluid" src="{{image}}" alt="image from instagram account"/></a>'
       });
       userFeed.run();
     </script>
